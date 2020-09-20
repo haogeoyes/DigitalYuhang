@@ -1,0 +1,17 @@
+<!--pages/pulibcDetail/publicDetail.wxml-->
+<!--
+<text>pages/pulibcDetail/publicDetail.wxml</text>
+<import src="../../wxParse/wxParse.wxml"/> 
+<template is="wxParse" data="{{wxParseData:body.nodes}}"/>
+-->
+
+
+<import src="../../wxParse/wxParse.wxml"/> 
+<view class="wxParse">
+     <!--
+     <template is="wxParse" data="{{wxParseData:article.nodes}}"/>
+     <web-view src="https://www.huaibeishi.net" bindmessage=""></web-view>
+     -->
+     <template is="wxParse" data="{{wxParseData:article.nodes}}"/>
+</view>
+
